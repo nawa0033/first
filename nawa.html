@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Your Name</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom styling -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 bg-white shadow z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Nawa deeeeep</h1>
+
+      <ul class="hidden md:flex gap-8 font-medium">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="min-h-screen flex items-center justify-center text-center px-6 pt-20">
+    <div>
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I'm <span class="text-blue-600">Nawa deep</span></h1>
+      <p class="text-lg text-gray-600 max-w-xl mx-auto mb-6">
+        A passionate <span class="font-semibold text-gray-800">Lover</span> seeking for beautiful girlszz
+      </p>
+      <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700">
+        View My Work
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <img src="https://c8.alamy.com/comp/ARPDXJ/man-with-huge-teeth-kathmandu-ARPDXJ.jpg" class="rounded-xl shadow">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          I have always loved the idea of being someone's loved one
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+            My experience is just videocalls and chatting nothing more than that
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-24 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
+        <div class="bg-white shadow p-4 rounded-lg font-medium">chatting</div>
+        <div class="bg-white shadow p-4 rounded-lg font-medium">videocalls</div>
+        <a href="https://www.youtube.com/shorts/nh1yvwvMLbI" 
+   target="_blank" 
+   class="inline-block bg-white shadow p-4 rounded-lg font-medium">
+  Click here to see my skills
+</a>
+
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 bg-gray-100">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Contact Me</h2>
+
+      <form class="grid gap-6">
+        <input type="text" placeholder="Your Name"
+          class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+        <input type="email" placeholder="Email Address"
+          class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+        <textarea placeholder="Your Message" rows="5"
+          class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-6 bg-white text-center border-t">
+    <p class="text-gray-600">© 2025 Your Name — All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
